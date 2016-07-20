@@ -10,6 +10,10 @@ namespace xUnit_test1
     {
         static void Main(string[] args)
         {
+            var calc = new Calculator();
+            Console.WriteLine(5d / 2d);
+            Console.WriteLine(calc.Divide(5d, 2d));
+            Console.ReadKey();
         }
     }
 }

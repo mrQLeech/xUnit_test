@@ -68,6 +68,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AssertingCollection.cs" />
+    <Compile Include="AssertingExceptions.cs" />
+    <Compile Include="AssertingRanges.cs" />
     <Compile Include="CalculatorTests.cs" />
     <Compile Include="NameJoinerTests.cs" />
     <Compile Include="PlayerCharacterTests.cs" />

@@ -59,10 +59,7 @@ namespace xUnit_test1
                       {
                           "Long Bow",
                           "Short Bow",
-                          "Short Sword",                       
-                
-                          // "Long Bow",
-                          // "Staff Of Wonder"
+                          "Short Sword",
                       };
         }
     }

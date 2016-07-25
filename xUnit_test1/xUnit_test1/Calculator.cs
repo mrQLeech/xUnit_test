@@ -23,6 +23,14 @@ namespace xUnit_test1
             return value / (double)by;
         }
 
+        public int Divide (int value, int by)
+        {
+            if (value > 200)
+            {
+                throw new ArgumentOutOfRangeException("value");
+            }
 
+            return value / by;
+        }
     }
 }
